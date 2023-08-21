@@ -1,0 +1,25 @@
+.header {
+  height: 60px;
+  margin: 40px 50px 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 36.914px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45.441px;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 20px;
+  }
+}
