@@ -10,7 +10,8 @@ interface IButton {
 export const Button = ({ title, isColored, icon }: IButton) => {
   return (
     <button className={`${styles.btn} ${isColored && styles.btn__colored}`}>
-      {title}
+      <span className={styles.btn__title}>{title}</span>
+      {icon}
     </button>
   );
 };
