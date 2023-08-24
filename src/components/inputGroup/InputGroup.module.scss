@@ -16,8 +16,16 @@
     font-style: normal;
     font-weight: 300;
 
+    &__row {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      align-items: center;
+    }
+
     &__highlited {
       color: var(--primary--pink);
+      font-weight: 700;
     }
   }
 }
