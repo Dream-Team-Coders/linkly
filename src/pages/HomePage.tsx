@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './HomePage.module.scss';
 import { InputGroup } from 'components/inputGroup/InputGroup';
+import { LinksList } from 'components/linksList/LinksList';
 
 export const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ export const HomePage = () => {
         streamlines your online experience.
       </p>
       <InputGroup />
+      <LinksList />
     </div>
   );
 };
