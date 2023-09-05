@@ -48,6 +48,38 @@
         background: rgba(28, 40, 63, 0.69);
         cursor: pointer;
       }
+
+      .active {
+        color: var(--active);
+        cursor: pointer;
+      }
+
+      .active__icon {
+        border-radius: 100%;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(#1eb036, 0.15);
+        cursor: pointer;
+      }
+
+      .inactive {
+        color: var(--inactive);
+        cursor: pointer;
+      }
+
+      .inactive__icon {
+        border-radius: 100%;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(#b0901e, 0.15);
+        cursor: pointer;
+      }
     }
 
     > td {

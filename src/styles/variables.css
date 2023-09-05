@@ -4,7 +4,15 @@
   --dark: #0b101b;
   --light: #c9ced6;
   --grey: #181e29;
-  --gradient: linear-gradient(79deg, #144ee3 0%, #eb568e 18.75%, #a353aa 64.06%, #144ee3 100%);
+  --active: #1eb036;
+  --inactive: #b0901e;
+  --gradient: linear-gradient(
+    79deg,
+    #144ee3 0%,
+    #eb568e 18.75%,
+    #a353aa 64.06%,
+    #144ee3 100%
+  );
 
   --bg-color: var(--dark);
   --text-color: var(--light);
